@@ -1,0 +1,108 @@
+.header{
+
+}
+.button-get{
+  color: #212121;
+  padding: 12px 24px;
+  background-color: #BEED3A;
+  font-weight: 600;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.biggest-text{
+  font-family: Anton-Regular, sans-serif;
+  color: #E0E0E0;
+  font-size: calc(5rem + 2vw);
+  line-height: 130px;
+}
+.total-b{
+  background-color: #E0E0E0;
+  font-weight: 600;
+  border-radius: 100px;
+  cursor: pointer;
+  color: #212121;
+  padding: 10px 32px;
+  width: fit-content;
+  margin: 8px;
+}
+.total-b:hover{
+  background: linear-gradient(90deg, rgba(190,73,203,1) 0%, rgba(220,79,183,1) 100%);
+  box-shadow: 19px 19px 16px 0px rgba(34, 60, 80, 0.2);
+}
+.tags{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button-1{
+  top: 0;
+  right: calc(50% - 50px);
+}
+.button-2{
+  bottom: 0;
+  right: calc(50% - 65px);
+}
+.button-3{
+  top: calc(50% - 30px);
+  right: 0;
+}
+.button-4{
+  top: calc(50% - 23px);
+  left: 45px;
+}
+.button-5{
+  top: calc(20% - 23px);
+  right: calc(25% - 70px);
+}
+.button-6{
+  top: calc(20% - 23px);
+  right: calc(75% - 55px);
+}
+.button-7{
+  top: calc(75% - 10px);
+  right: calc(75% - 65px);
+}
+.button-8{
+  top: calc(75% - 10px);
+  right: calc(20% - 50px);
+}
+.button-center{
+  background: linear-gradient(90deg, rgba(45,107,248,1) 0%, rgba(45,192,247,1) 100%);
+  font-weight: 600;
+  border-radius: 100px;
+  cursor: pointer;
+  color: #212121;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transition: 1s;
+  top: calc(50% - 25px);
+  right: calc(50% - 25px);
+}
+.m-text{
+  color: #E0E0E0;
+  font-size: calc(1rem + 1vw);
+  line-height: 35px;
+}
+.emp-name{
+  color: #BEED3A;
+  font-family: Anton-Regular, sans-serif;
+  font-size: calc(0.6rem + 1vw);
+}
+.prof{
+  color: #E0E0E0;
+  font-size: calc(0.5rem + 1vw);
+}
+.footer{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  right: calc(50% - 100px);
+  color: #E0E0E0;
+}
+.gif{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -30px;
+}
