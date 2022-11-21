@@ -23,6 +23,9 @@ html,head,body{
 .max-w-80rem {
   max-width: 80rem;
 }
+.max-w-80vw{
+  max-width: 80vw;
+}
 .w-50{
   width: 50%;
 }
@@ -73,3 +76,6 @@ html,head,body{
   justify-content: center;
   align-items: center;
 }
+
+
+
