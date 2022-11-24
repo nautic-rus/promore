@@ -4,11 +4,11 @@
 }
 .button-get{
   color: #212121;
-  padding: 12px 24px;
+  padding: 8px 20px;
   background-color: #BEED3A;
   font-weight: 600;
   border-radius: 100px;
-  cursor: pointer;
+  text-decoration: none;
 }
 .biggest-text{
   font-family: Anton-Regular, sans-serif;
@@ -21,7 +21,6 @@
   background-color: #E0E0E0;
   font-weight: 600;
   border-radius: 100px;
-  cursor: pointer;
   color: #212121;
   padding: 10px 32px;
   width: fit-content;
@@ -71,7 +70,6 @@
   background: linear-gradient(90deg, rgba(45,107,248,1) 0%, rgba(45,192,247,1) 100%);
   font-weight: 600;
   border-radius: 100px;
-  cursor: pointer;
   color: #212121;
   position: absolute;
   width: 50px;
@@ -103,7 +101,7 @@
   color: #E0E0E0;
 }
 .mail-text{
-  color: #E0E0E0;
+  font-size: 12px;
 }
 .gif{
   display: flex;
@@ -137,6 +135,13 @@
   }
   .total-b{
     padding: 8px 22px;
+  }
+}
+@media (max-width: 950px) {
+  .biggest-text {
+    font-size: calc(3.8rem + 2vw);
+    line-height: 95px;
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
