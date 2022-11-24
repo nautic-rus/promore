@@ -44,6 +44,9 @@ html,head,body{
 .space-between{
   justify-content: space-between;
 }
+.mr-10{
+  margin-right: 10px;
+}
 .mt-1vw{
   margin-top: 1vw;
 }
